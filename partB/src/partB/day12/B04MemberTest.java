@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class B04MemberTest {
 	public static void main(String[] args) {
-		B04Member momo = new B04Member();
+		Member momo = new Member();
 		System.out.println("momo의 객체의 초기 상태");
 		System.out.println(momo.getId());
 		System.out.println(momo.getName());

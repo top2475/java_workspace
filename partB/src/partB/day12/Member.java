@@ -3,7 +3,7 @@ package partB.day12;
 import java.util.Arrays;
 
 //웹에서회원 가입할 때 사용하는 회원 정보를 예시로 클래스를 정의
-public class B04Member {
+public class Member {
 		private String id;
 		private String name;
 		private int age;

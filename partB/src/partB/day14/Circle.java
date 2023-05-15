@@ -13,6 +13,13 @@ public class Circle extends Shape{
 	public Circle(double radius) {
 		super("원",2*(int)radius,2*(int)radius); //원 크기의 근접한 값으로 너비, 높이
 		this.radius = radius;}
+	
+	//day15에 추가. 자식 LadderShape의 인스턴스 메소드
+		public void iamCircle() {
+			System.out.println(" I am Circle. -" + super.getShapeName());
+			System.out.println("반지름 = " + radius);
+		}
+		
 	@Override
 	public int area() {
 		return (int)(Math.PI * radius * radius);}

@@ -33,7 +33,7 @@ public class Shape {
 	public void setShapeName(String shapeName) {this.shapeName = shapeName;}
 	public int getWidth() {return width;}
 	public void setWidth(int width) {this.width = width;}
-	public int getHeigth() {return height;}
+	public int getHeight() {return height;}
 	public void setHeigth(int height) {this.height = height;}
 
 
