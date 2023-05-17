@@ -33,8 +33,16 @@ public class ProductTest {
 		//문제2 -[3]
 		for(int i=0;i<cart.length;i++) {
 			if(cart[i]!=null && cart[i].price >= 100000) {
-				System.out.println("cart index=" + i + ",상품명=" + cart[i].prdName 
-						+ ",가격=" + cart[i].price);  //toString()은 여러분이 코딩하세요.
+				if(cart[i] instanceof Bike) {
+					Bike b = (Bike) cart[i];
+					System.out.println(b.toString());
+				}
+				if(cart[i] instanceof Electronics) {
+					Electronics e = (Electronics) cart[i];
+					System.out.println(e.toString());
+				}
+//				System.out.println("cart index=" + i + ",상품명=" + cart[i].prdName 
+//						+ ",가격=" + cart[i].price);  //toString()은 여러분이 코딩하세요.
 			}
 		}
 	}
