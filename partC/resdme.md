@@ -189,5 +189,16 @@ sh instance Circle 결과 값이 참 일 떄만 Circle로 다운 캐스팅 합니다. 그렇지 않으
 		+ Comparator 구현 클래스로 정의해서 sort 메소드 2번째 인자는 구현 클래스 객체 생성(new 연산)으로 지정
 		+ Comparator 타입의 sort 메소드 2번째 인자를 익명 클래스 객체 생성으로 바로 지정
 
+## day20 (5.19)
+
+### 
++ CharSequence 인터페이스 구현 클래스
+  + String,StringButter
++ 문자열 분리
+  + String 클래스의 split 인스턴스 메소드
+  + StringTokenizer. 구분 기호를 정규식 형식
++ 함수형 인터페이스
+  + 람다식
++ ArrayList 복습    
 
  
